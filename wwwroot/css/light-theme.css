@@ -1,0 +1,18 @@
+﻿body {
+    background-color: #ffffff;
+    color: #000000
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    background-color: #6200ee;
+    color: white;
+}
+
+a {
+    color: #6200ee;
+}
