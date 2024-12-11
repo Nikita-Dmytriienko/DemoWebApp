@@ -4,18 +4,28 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
+    background: transparent;
     color: #000000;
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-     color: #000000;
-    }
+    color: #000000;
+}
 
 .btn-secondary {
     background-color: #ffffff;
     color: #000000;
 }
 
+.btn {
+    background-color: #ffffff;
+    color: black;
+}
+
+/*Нижня частина*/
 a {
-    color: #ffffff;
+    color: #d06060;
 }

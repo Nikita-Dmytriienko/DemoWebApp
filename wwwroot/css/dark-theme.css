@@ -1,23 +1,59 @@
 ﻿body {
     background-color: #333333;
-    color: #ffffff
-}
-
-.navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
 
+/* Навігаційні посилання */
+.navbar-dark .navbar-nav .nav-link {
+    background: transparent;
+    color: #ffffff;
+    outline: none; /* Вимикає обводку */
+    box-shadow: none; /* Вимикає тіні */
+    border: none; /* Вимикає границі */
+}
+
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:active {
+        outline: none; /* Вимикає обводку при фокусуванні */
+        box-shadow: none; /* Прибирає будь-які тіні */
+        border: none; /* Вимикає рамку */
+    }
+
+    /* Ховер для навігаційних посилань */
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #bb86fc; /* Невелика зміна кольору при ховері */
+    }
+
+/* Кнопка Secondary */
 .btn-secondary {
     background-color: #333333;
     color: white;
+    outline: none;
+    box-shadow: none;
 }
 
+/* Загальні стилі для кнопок */
 .btn {
     background-color: #333333;
     color: white;
+    outline: none; /* Вимикає обводку */
+    box-shadow: none; /* Вимикає тіні */
+    border: none; /* Вимикає рамку */
 }
 
-/*Нижня частина*/
+    .btn:focus, .btn:active {
+        outline: none; /* Вимикає обводку при фокусуванні */
+        box-shadow: none; /* Прибирає тіні */
+        border: none; /* Вимикає рамку */
+    }
+
+/* Стилі для посилань */
 a {
     color: #ffffff;
+    text-decoration: none; /* Прибирає підкреслення */
 }
+
+    a:focus, a:active {
+        outline: none; /* Вимикає обводку при фокусуванні */
+        box-shadow: none; /* Прибирає тіні */
+    }
