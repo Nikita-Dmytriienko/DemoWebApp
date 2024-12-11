@@ -3,14 +3,17 @@
     color: #000000
 }
 
-nav {
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
 }
 
-.btn {
-    background-color: #ddd;
-    color: black;
+.navbar-light .navbar-nav .nav-link:hover {
+     color: #000000;
+    }
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 a {

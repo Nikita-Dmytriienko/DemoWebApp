@@ -1,10 +1,15 @@
 ﻿body {
-    background-color: #121212;
+    background-color: #333333;
     color: #ffffff
 }
 
-nav {
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.btn-secondary {
     background-color: #333333;
+    color: white;
 }
 
 .btn {
@@ -12,6 +17,7 @@ nav {
     color: white;
 }
 
+/*Нижня частина*/
 a {
-    color: #333333;
+    color: #ffffff;
 }
