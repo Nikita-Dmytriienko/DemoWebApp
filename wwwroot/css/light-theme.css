@@ -1,0 +1,19 @@
+﻿/* light-theme.css */
+body {
+    background-color: #ffffffff;
+    color: #000000;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffffff;
+}
+
+.btn {
+    background-color:#ddd;
+    color: black;
+}
+
+a {
+    color: #000000;
+}

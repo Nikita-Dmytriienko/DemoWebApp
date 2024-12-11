@@ -1,0 +1,30 @@
+﻿/* dark-theme.css */
+body {
+    background-color: #333333;
+    color: #ffffff
+}
+
+nav {
+    background-color: white;
+    color :wheat
+}
+
+button {
+    background-color: #333333;
+    color: white;
+}
+.btn {
+    background-color: #333333;
+    color: white;
+}
+
+a {
+    color: #ffffffff;
+}
+td 
+{
+    color :white
+}
+th {
+    color: white
+}
