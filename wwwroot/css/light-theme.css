@@ -1,17 +1,19 @@
-﻿body.light-theme {
-    background-color: #ffffff;
+﻿/* light-theme.css */
+body {
+    background-color: #ffffffff;
     color: #000000;
 }
 
-    body.light-theme .navbar-light .navbar-nav .nav-link {
-        color: #000000;
-    }
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffffff;
+}
 
-    body.light-theme .btn-secondary {
-        background-color: #f8f9fa;
-        color: #000000;
-    }
+.btn {
+    background-color:#ddd;
+    color: black;
+}
 
-    body.light-theme a {
-        color: #6200ee;
-    }
+a {
+    color: #000000;
+}
