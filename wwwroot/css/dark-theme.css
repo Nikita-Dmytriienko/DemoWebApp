@@ -9,8 +9,12 @@ nav {
     color :wheat
 }
 
+button {
+    background-color: #333333;
+    color: white;
+}
 .btn {
-    background-color: #ddd;
+    background-color: #333333;
     color: white;
 }
 
